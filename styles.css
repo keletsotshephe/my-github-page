@@ -10,7 +10,7 @@ font-family: Arial, sans-serif;
 
 color: #333333;
 
-background-color: #f9f9f9;
+background-color: #e8ebeb;
 
 margin: 0;
 
@@ -26,7 +26,7 @@ background-color: #0b5c61;
 
 color: white;
 
-padding: 30px 20px;
+padding: 40px 20px;
 
 text-align: center;
 
@@ -35,7 +35,7 @@ text-align: center;
 
 header h1 {
 
-margin: 0;
+margin-bottom: 10px;
 
 }
 
@@ -44,10 +44,10 @@ nav a {
 
 color: white;
 
-text-decoration: none;
+text-decoration: underline;
 
 margin: 0 10px;
-
+font-weight: bold;
 }
 
 
@@ -82,7 +82,7 @@ margin: 20px 0;
 
 footer {
 
-background-color: #333333;
+background-color: #fdfbfb;
 
 color: white;
 
@@ -134,4 +134,76 @@ color: #ff5722;
 
 font-weight: bold;
 
+}
+.image-row {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* space between images */
+    flex-wrap: wrap; /* makes it responsive on small screens */
+}
+shop{
+    text align:center;
+    padding:40px;
+}
+
+.products{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    padding:20px;
+}
+
+.product{
+    background:white;
+    padding:15px;
+    border-radius:10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,1);
+}
+
+product img{
+    width:100%;
+    border-radius: 10px;
+}
+
+button{
+    backgroun:#00bcd4;
+    color:white;
+    border:none;
+    padding: 10px;
+    margin-top:10px;
+    cursor: pointer;
+
+}
+.products{
+    padding:40px;
+    text-align:center;
+}
+
+.product{
+    background:white;
+    padding:20px;
+    margin:auto;
+    width:250px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
+
+.product img{
+    width:100%;
+}
+
+button{
+    background:#111;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    cursor:pointer;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    background:#111;
+    color:white;
+    margin-top:40px;
 }
